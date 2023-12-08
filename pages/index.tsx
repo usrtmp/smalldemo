@@ -27,7 +27,6 @@ export default function Home() {
         <div className="py-8 w-full flex items-center justify-center space-x-6">
           <div className="opacity-75 transition hover:opacity-100 cursor-pointer">
             <Link href="https://supabase.com" className="flex items-center justify-center">
-              <p className="text-base mr-2">Built by Supabase</p>
               <Image src={'/supabase.svg'} width="20" height="20" alt="Supabase logo" />
             </Link>
           </div>

@@ -77,10 +77,7 @@ export function SearchDialog() {
       <Dialog open={open}>
         <DialogContent className="sm:max-w-[850px] max-h-[80vh] overflow-y-auto text-black">
           <DialogHeader>
-            <DialogTitle>OpenAI powered doc search</DialogTitle>
-            <DialogDescription>
-              Build your own ChatGPT style search with Next.js, OpenAI & Supabase.
-            </DialogDescription>
+            <DialogTitle>Small Demo</DialogTitle>
             <hr />
             <button className="absolute top-0 right-2 p-2" onClick={() => setOpen(false)}>
               <X className="h-4 w-4 dark:text-gray-100" />
@@ -150,7 +147,9 @@ export function SearchDialog() {
                   transition-colors"
                   onClick={(_) => setQuery('What are embeddings?')}
                 >
-                  What are embeddings?
+                  Tell me something about Mohammad.
+                  What did Sabrina do in spare time?
+                  What Jiahui did before?
                 </button>
               </div>
             </div>
