@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next.js OpenAI Template</title>
+        <title>Small Demo</title>
         <meta
           name="description"
           content="Next.js Template for building OpenAI applications with Supabase."
