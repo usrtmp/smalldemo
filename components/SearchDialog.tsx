@@ -172,9 +172,9 @@ export function SearchDialog() {
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors
                   mr-2"
-                  onClick={(_) => setQuery('What are embeddings?')}
+                  onClick={(_) => setQuery('What did Jiahui do before?')}
                 >
-                  What are embeddings?
+                  What did Jiahui do before?
                 </button>
               </div>
             </div>
