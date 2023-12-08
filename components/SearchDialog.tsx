@@ -161,7 +161,7 @@ export function SearchDialog() {
                   mr-2"
                   onClick={(_) => setQuery('What did Sabrina do in spare time?')}
                 >
-                  What did Sabrina do in spare time?
+                  What does Sabrina do in spare time?
                 </button>
 
                 <button
