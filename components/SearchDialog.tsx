@@ -144,7 +144,8 @@ export function SearchDialog() {
                   bg-slate-50 dark:bg-gray-500
                   hover:bg-slate-100 dark:hover:bg-gray-600
                   rounded border border-slate-200 dark:border-slate-600
-                  transition-colors"
+                  transition-colors
+                  mr-2"
                   onClick={(_) => setQuery('Tell me something about Mohammad.')}
                 >
                   Tell me something about Mohammad.
@@ -156,7 +157,8 @@ export function SearchDialog() {
                   bg-slate-50 dark:bg-gray-500
                   hover:bg-slate-100 dark:hover:bg-gray-600
                   rounded border border-slate-200 dark:border-slate-600
-                  transition-colors"
+                  transition-colors
+                  mr-2"
                   onClick={(_) => setQuery('What did Sabrina do in spare time?')}
                 >
                   What did Sabrina do in spare time?
@@ -168,7 +170,8 @@ export function SearchDialog() {
                   bg-slate-50 dark:bg-gray-500
                   hover:bg-slate-100 dark:hover:bg-gray-600
                   rounded border border-slate-200 dark:border-slate-600
-                  transition-colors"
+                  transition-colors
+                  mr-2"
                   onClick={(_) => setQuery('What are embeddings?')}
                 >
                   What are embeddings?

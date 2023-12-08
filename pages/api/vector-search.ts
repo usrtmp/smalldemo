@@ -118,7 +118,7 @@ export default async function handler(req: NextRequest) {
         documentation, answer the question using only that information,
         outputted in markdown format. If you are unsure and the answer
         is not explicitly written in the documentation, say
-        "Sorry, I don't know how to help with that."
+        "Sorry, I can not find document about this question"
       `}
 
       Context sections:
