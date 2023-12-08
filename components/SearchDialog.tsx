@@ -145,10 +145,11 @@ export function SearchDialog() {
                   hover:bg-slate-100 dark:hover:bg-gray-600
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors"
-                  onClick={(_) => setQuery('What are embeddings?')}
+                  onClick={(_) => setQuery('Tell me something about Mohammad.')}
                 >
                   Tell me something about Mohammad.
                 </button>
+                
                 <button
                   type="button"
                   className="px-1.5 py-0.5
@@ -156,10 +157,11 @@ export function SearchDialog() {
                   hover:bg-slate-100 dark:hover:bg-gray-600
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors"
-                  onClick={(_) => setQuery('What are embeddings?')}
+                  onClick={(_) => setQuery('What did Sabrina do in spare time?')}
                 >
                   What did Sabrina do in spare time?
                 </button>
+
                 <button
                   type="button"
                   className="px-1.5 py-0.5
@@ -169,7 +171,7 @@ export function SearchDialog() {
                   transition-colors"
                   onClick={(_) => setQuery('What are embeddings?')}
                 >
-                  What Jiahui did before?
+                  What are embeddings?
                 </button>
               </div>
             </div>
