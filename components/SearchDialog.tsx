@@ -159,7 +159,7 @@ export function SearchDialog() {
                   rounded border border-slate-200 dark:border-slate-600
                   transition-colors
                   mr-2"
-                  onClick={(_) => setQuery('What did Sabrina do in spare time?')}
+                  onClick={(_) => setQuery('What does Sabrina do in spare time?')}
                 >
                   What does Sabrina do in spare time?
                 </button>
