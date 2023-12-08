@@ -84,9 +84,9 @@ export default async function handler(req: NextRequest) {
       'match_page_sections',
       {
         embedding,
-        match_threshold: 0.78,
+        match_threshold: 0.6,
         match_count: 10,
-        min_content_length: 50,
+        min_content_length: 10,
       }
     )
 
